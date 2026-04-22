@@ -1,0 +1,773 @@
+From_Station,To_Station,Line,Has_Signal,Travel_Time
+Elephant & Castle,Lambeth North,bakerloo,False,0
+Lambeth North,Waterloo,bakerloo,False,2
+Waterloo,Embankment,bakerloo,True,14
+Embankment,Charing Cross,bakerloo,false,0
+Charing Cross,Piccadilly Circus,bakerloo,True,0
+Piccadilly Circus,Oxford Circus,bakerloo,True,2
+Oxford Circus,Regent's Park,bakerloo,True,2
+Regent's Park,Baker Street,bakerloo,False,2
+Baker Street,Marylebone,bakerloo,False,0
+Marylebone,Edgware Road (Bakerloo),bakerloo,True,0
+Edgware Road (Bakerloo),Paddington,bakerloo,True,0
+Paddington,Warwick Avenue,bakerloo,True,0
+Warwick Avenue,Maida Vale,bakerloo,True,2
+Maida Vale,Kilburn Park,bakerloo,True,2
+Kilburn Park,Queen's Park,bakerloo,True,0
+Queen's Park,Kensal Green,bakerloo,True,0
+Kensal Green,Willesden Junction,bakerloo,True,0
+Willesden Junction,Harlesden,bakerloo,True,0
+Harlesden,Stonebridge Park,bakerloo,True,0
+Stonebridge Park,Wembley Central,bakerloo,True,0
+Wembley Central,North Wembley,bakerloo,False,0
+North Wembley,South Kenton,bakerloo,False,0
+South Kenton,Kenton,bakerloo,True,0
+Kenton,Harrow & Wealdstone,bakerloo,True,0
+Harrow & Wealdstone,Kenton,bakerloo,True,0
+Kenton,South Kenton,bakerloo,True,0
+South Kenton,North Wembley,bakerloo,False,0
+North Wembley,Wembley Central,bakerloo,False,0
+Wembley Central,Stonebridge Park,bakerloo,True,0
+Stonebridge Park,Harlesden,bakerloo,True,0
+Harlesden,Willesden Junction,bakerloo,True,0
+Willesden Junction,Kensal Green,bakerloo,True,0
+Kensal Green,Queen's Park,bakerloo,True,0
+Queen's Park,Kilburn Park,bakerloo,True,0
+Kilburn Park,Maida Vale,bakerloo,True,2
+Maida Vale,Warwick Avenue,bakerloo,True,1
+Warwick Avenue,Paddington,bakerloo,True,0
+Paddington,Edgware Road (Bakerloo),bakerloo,True,0
+Edgware Road (Bakerloo),Marylebone,bakerloo,True,0
+Marylebone,Baker Street,bakerloo,False,0
+Baker Street,Regent's Park,bakerloo,False,1
+Regent's Park,Oxford Circus,bakerloo,True,2
+Oxford Circus,Piccadilly Circus,bakerloo,True,2
+Piccadilly Circus,Charing Cross,bakerloo,True,0
+Charing Cross,Embankment,bakerloo,True,0
+Embankment,Waterloo,bakerloo,False,14
+Waterloo,Lambeth North,bakerloo,False,2
+Lambeth North,Elephant & Castle,bakerloo,False,0
+Ealing Broadway,West Acton,central,True,0
+West Acton,North Acton,central,True,3
+North Acton,East Acton,central,True,2
+East Acton,White City,central,True,4
+White City,Shepherd's Bush (Central),central,False,3
+Shepherd's Bush (Central),Holland Park,central,False,1
+Holland Park,Notting Hill Gate,central,True,1
+Notting Hill Gate,Queensway,central,True,2
+Queensway,Lancaster Gate,central,True,1
+Lancaster Gate,Marble Arch,central,True,3
+Marble Arch,Bond Street,central,True,0
+Bond Street,Oxford Circus,central,True,0
+Oxford Circus,Tottenham Court Road,central,True,0
+Tottenham Court Road,Holborn,central,True,0
+Holborn,Chancery Lane,central,True,1
+Chancery Lane,St. Paul's,central,False,2
+St. Paul's,Bank,central,False,0
+Bank,Liverpool Street,central,True,0
+Liverpool Street,Bethnal Green,central,False,0
+Bethnal Green,Mile End,central,False,0
+Mile End,Stratford,central,True,0
+Stratford,Leyton,central,True,0
+Leyton,Leytonstone,central,True,0
+Leytonstone,Snaresbrook,central,True,0
+Snaresbrook,South Woodford,central,False,0
+South Woodford,Woodford,central,False,0
+Woodford,Buckhurst Hill,central,False,0
+Buckhurst Hill,Loughton,central,False,0
+Loughton,Debden,central,True,0
+Debden,Theydon Bois,central,True,0
+Theydon Bois,Epping,central,True,0
+Leytonstone,Wanstead,central,True,0
+Wanstead,Redbridge,central,True,0
+Redbridge,Gants Hill,central,False,0
+Gants Hill,Newbury Park,central,False,0
+Newbury Park,Barkingside,central,True,0
+Barkingside,Fairlop,central,True,0
+Fairlop,Hainault,central,True,0
+Epping,Theydon Bois,central,True,0
+Theydon Bois,Debden,central,True,0
+Debden,Loughton,central,True,0
+Loughton,Buckhurst Hill,central,False,0
+Buckhurst Hill,Woodford,central,False,0
+Woodford,South Woodford,central,False,0
+South Woodford,Snaresbrook,central,False,0
+Snaresbrook,Leytonstone,central,True,0
+Leytonstone,Leyton,central,True,0
+Leyton,Stratford,central,True,0
+Stratford,Mile End,central,True,0
+Mile End,Bethnal Green,central,False,0
+Bethnal Green,Liverpool Street,central,False,0
+Liverpool Street,Bank,central,True,0
+Bank,St. Paul's,central,False,0
+St. Paul's,Chancery Lane,central,False,0
+Chancery Lane,Holborn,central,True,0
+Holborn,Tottenham Court Road,central,True,0
+Tottenham Court Road,Oxford Circus,central,True,0
+Oxford Circus,Bond Street,central,True,0
+Bond Street,Marble Arch,central,True,0
+Marble Arch,Lancaster Gate,central,True,0
+Lancaster Gate,Queensway,central,True,0
+Queensway,Notting Hill Gate,central,True,0
+Notting Hill Gate,Holland Park,central,True,0
+Holland Park,Shepherd's Bush (Central),central,False,0
+Shepherd's Bush (Central),White City,central,False,0
+White City,East Acton,central,True,0
+East Acton,North Acton,central,True,0
+North Acton,Hanger Lane,central,True,0
+Hanger Lane,Perivale,central,True,0
+Perivale,Greenford,central,True,0
+Greenford,Northolt,central,False,0
+Northolt,South Ruislip,central,False,0
+South Ruislip,Ruislip Gardens,central,True,0
+Ruislip Gardens,West Ruislip,central,False,0
+North Acton,West Acton,central,True,0
+West Acton,Ealing Broadway,central,True,0
+Hainault,Fairlop,central,True,2
+Fairlop,Barkingside,central,True,1
+Barkingside,Newbury Park,central,True,2
+Newbury Park,Gants Hill,central,False,3
+Gants Hill,Redbridge,central,False,2
+Redbridge,Wanstead,central,True,2
+Wanstead,Leytonstone,central,True,3
+Hainault,Grange Hill,central,True,2
+Grange Hill,Chigwell,central,True,2
+Chigwell,Roding Valley,central,True,4
+Roding Valley,Woodford,central,True,11
+West Ruislip,Ruislip Gardens,central,False,0
+Ruislip Gardens,South Ruislip,central,True,0
+South Ruislip,Northolt,central,False,0
+Northolt,Greenford,central,False,0
+Greenford,Perivale,central,True,0
+Perivale,Hanger Lane,central,True,2
+Hanger Lane,North Acton,central,True,4
+Woodford,Roding Valley,central,True,7
+Roding Valley,Chigwell,central,True,3
+Chigwell,Grange Hill,central,True,3
+Grange Hill,Hainault,central,True,1
+Edgware Road (Circle Line),Paddington,circle,False,0
+Paddington,Bayswater,circle,False,0
+Bayswater,Notting Hill Gate,circle,False,1
+Notting Hill Gate,High Street Kensington,circle,True,5
+High Street Kensington,Gloucester Road,circle,False,2
+Gloucester Road,South Kensington,circle,False,1
+South Kensington,Sloane Square,circle,False,2
+Sloane Square,Victoria,circle,True,0
+Victoria,St. James's Park,circle,True,0
+St. James's Park,Westminster,circle,True,0
+Westminster,Embankment,circle,True,0
+Embankment,Temple,circle,True,1
+Temple,Blackfriars,circle,False,0
+Blackfriars,Mansion House,circle,False,0
+Mansion House,Cannon Street,circle,False,0
+Cannon Street,Monument,circle,False,0
+Monument,Tower Hill,circle,False,1
+Tower Hill,Aldgate,circle,False,2
+Aldgate,Liverpool Street,circle,False,0
+Liverpool Street,Moorgate,circle,True,0
+Moorgate,Barbican,circle,True,0
+Barbican,Farringdon,circle,True,0
+Farringdon,King's Cross St. Pancras,circle,False,0
+King's Cross St. Pancras,Euston Square,circle,False,0
+Euston Square,Great Portland Street,circle,True,1
+Great Portland Street,Baker Street,circle,False,5
+Baker Street,Edgware Road (Circle Line),circle,False,2
+Edgware Road (Circle Line),Paddington (H&C Line)-Underground,circle,False,2
+Paddington (H&C Line)-Underground,Royal Oak,circle,False,2
+Royal Oak,Westbourne Park,circle,True,2
+Westbourne Park,Ladbroke Grove,circle,False,1
+Ladbroke Grove,Latimer Road,circle,False,2
+Latimer Road,Wood Lane,circle,False,1
+Wood Lane,Shepherd's Bush Market,circle,False,1
+Shepherd's Bush Market,Goldhawk Road,circle,False,2
+Goldhawk Road,Hammersmith (H&C Line),circle,False,1
+Hammersmith (H&C Line),Goldhawk Road,circle,False,1
+Goldhawk Road,Shepherd's Bush Market,circle,False,1
+Shepherd's Bush Market,Wood Lane,circle,False,2
+Wood Lane,Latimer Road,circle,False,0
+Latimer Road,Ladbroke Grove,circle,False,2
+Ladbroke Grove,Westbourne Park,circle,False,1
+Westbourne Park,Royal Oak,circle,True,2
+Royal Oak,Paddington (H&C Line)-Underground,circle,False,2
+Paddington (H&C Line)-Underground,Edgware Road (Circle Line),circle,False,2
+Edgware Road (Circle Line),Baker Street,circle,False,3
+Baker Street,Great Portland Street,circle,False,1
+Great Portland Street,Euston Square,circle,True,2
+Euston Square,King's Cross St. Pancras,circle,False,0
+King's Cross St. Pancras,Farringdon,circle,False,0
+Farringdon,Barbican,circle,True,0
+Barbican,Moorgate,circle,True,0
+Moorgate,Liverpool Street,circle,True,0
+Liverpool Street,Aldgate,circle,False,0
+Aldgate,Tower Hill,circle,False,2
+Tower Hill,Monument,circle,False,2
+Monument,Cannon Street,circle,False,0
+Cannon Street,Mansion House,circle,False,0
+Mansion House,Blackfriars,circle,False,0
+Blackfriars,Temple,circle,False,0
+Temple,Embankment,circle,True,2
+Embankment,Westminster,circle,True,0
+Westminster,St. James's Park,circle,True,0
+St. James's Park,Victoria,circle,True,0
+Victoria,Sloane Square,circle,True,0
+Sloane Square,South Kensington,circle,False,1
+South Kensington,Gloucester Road,circle,False,2
+Gloucester Road,High Street Kensington,circle,False,9
+High Street Kensington,Notting Hill Gate,circle,True,2
+Notting Hill Gate,Bayswater,circle,False,1
+Bayswater,Paddington,circle,False,0
+Paddington,Edgware Road (Circle Line),circle,False,0
+Ealing Broadway,Ealing Common,district,True,0
+Ealing Common,Acton Town,district,True,4
+Acton Town,Chiswick Park,district,True,2
+Chiswick Park,Turnham Green,district,True,3
+Turnham Green,Stamford Brook,district,True,1
+Stamford Brook,Ravenscourt Park,district,True,1
+Ravenscourt Park,Hammersmith (Dist&Picc Line),district,False,2
+Hammersmith (Dist&Picc Line),Barons Court,district,False,2
+Barons Court,West Kensington,district,True,2
+West Kensington,Earl's Court,district,False,1
+Earl's Court,Gloucester Road,district,False,2
+Gloucester Road,South Kensington,district,False,2
+South Kensington,Sloane Square,district,False,2
+Sloane Square,Victoria,district,True,0
+Victoria,St. James's Park,district,True,0
+St. James's Park,Westminster,district,True,0
+Westminster,Embankment,district,True,0
+Embankment,Temple,district,True,2
+Temple,Blackfriars,district,False,0
+Blackfriars,Mansion House,district,False,0
+Mansion House,Cannon Street,district,False,0
+Cannon Street,Monument,district,False,0
+Monument,Tower Hill,district,False,3
+Tower Hill,Aldgate East,district,False,2
+Aldgate East,Whitechapel,district,True,0
+Whitechapel,Stepney Green,district,True,0
+Stepney Green,Mile End,district,True,1
+Mile End,Bow Road,district,True,2
+Bow Road,Bromley-by-Bow,district,True,1
+Bromley-by-Bow,West Ham,district,True,0
+West Ham,Plaistow,district,True,0
+Plaistow,Upton Park,district,True,1
+Upton Park,East Ham,district,True,2
+East Ham,Barking,district,True,0
+Barking,Upney,district,True,0
+Upney,Becontree,district,True,2
+Becontree,Dagenham Heathway,district,True,2
+Dagenham Heathway,Dagenham East,district,True,2
+Dagenham East,Elm Park,district,True,3
+Elm Park,Hornchurch,district,True,2
+Hornchurch,Upminster Bridge,district,True,2
+Upminster Bridge,Upminster,district,True,0
+Earl's Court,High Street Kensington,district,False,3
+High Street Kensington,Notting Hill Gate,district,True,2
+Notting Hill Gate,Bayswater,district,False,1
+Bayswater,Paddington,district,False,0
+Paddington,Edgware Road (Circle Line),district,False,0
+Edgware Road (Circle Line),Paddington,district,False,0
+Paddington,Bayswater,district,False,0
+Bayswater,Notting Hill Gate,district,False,2
+Notting Hill Gate,High Street Kensington,district,True,4
+High Street Kensington,Earl's Court,district,False,9
+Earl's Court,Kensington (Olympia),district,False,0
+Earl's Court,West Brompton,district,False,0
+West Brompton,Fulham Broadway,district,False,0
+Fulham Broadway,Parsons Green,district,False,2
+Parsons Green,Putney Bridge,district,True,2
+Putney Bridge,East Putney,district,True,2
+East Putney,Southfields,district,True,2
+Southfields,Wimbledon Park,district,True,3
+Wimbledon Park,Wimbledon,district,True,0
+Earl's Court,West Kensington,district,False,2
+West Kensington,Barons Court,district,True,1
+Barons Court,Hammersmith (Dist&Picc Line),district,False,2
+Hammersmith (Dist&Picc Line),Ravenscourt Park,district,False,2
+Ravenscourt Park,Stamford Brook,district,True,1
+Stamford Brook,Turnham Green,district,True,2
+Turnham Green,Chiswick Park,district,True,2
+Chiswick Park,Acton Town,district,True,3
+Acton Town,Ealing Common,district,True,2
+Ealing Common,Ealing Broadway,district,True,0
+Turnham Green,Gunnersbury,district,True,23
+Gunnersbury,Kew Gardens,district,True,0
+Kew Gardens,Richmond,district,True,0
+Kensington (Olympia),Earl's Court,district,False,0
+Richmond,Kew Gardens,district,True,0
+Kew Gardens,Gunnersbury,district,True,0
+Gunnersbury,Turnham Green,district,True,22
+Upminster,Upminster Bridge,district,True,0
+Upminster Bridge,Hornchurch,district,True,2
+Hornchurch,Elm Park,district,True,2
+Elm Park,Dagenham East,district,True,1
+Dagenham East,Dagenham Heathway,district,True,2
+Dagenham Heathway,Becontree,district,True,2
+Becontree,Upney,district,True,3
+Upney,Barking,district,True,0
+Barking,East Ham,district,True,0
+East Ham,Upton Park,district,True,2
+Upton Park,Plaistow,district,True,2
+Plaistow,West Ham,district,True,0
+West Ham,Bromley-by-Bow,district,True,0
+Bromley-by-Bow,Bow Road,district,True,2
+Bow Road,Mile End,district,True,2
+Mile End,Stepney Green,district,True,2
+Stepney Green,Whitechapel,district,True,0
+Whitechapel,Aldgate East,district,True,0
+Aldgate East,Tower Hill,district,False,2
+Tower Hill,Monument,district,False,1
+Monument,Cannon Street,district,False,0
+Cannon Street,Mansion House,district,False,0
+Mansion House,Blackfriars,district,False,0
+Blackfriars,Temple,district,False,0
+Temple,Embankment,district,True,2
+Embankment,Westminster,district,True,0
+Westminster,St. James's Park,district,True,0
+St. James's Park,Victoria,district,True,0
+Victoria,Sloane Square,district,True,0
+Sloane Square,South Kensington,district,False,2
+South Kensington,Gloucester Road,district,False,2
+Gloucester Road,Earl's Court,district,False,2
+Wimbledon,Wimbledon Park,district,True,0
+Wimbledon Park,Southfields,district,True,2
+Southfields,East Putney,district,True,3
+East Putney,Putney Bridge,district,True,2
+Putney Bridge,Parsons Green,district,True,2
+Parsons Green,Fulham Broadway,district,False,0
+Fulham Broadway,West Brompton,district,False,0
+West Brompton,Earl's Court,district,False,0
+Barking,East Ham,hammersmith-city,True,0
+East Ham,Upton Park,hammersmith-city,True,2
+Upton Park,Plaistow,hammersmith-city,True,2
+Plaistow,West Ham,hammersmith-city,True,0
+West Ham,Bromley-by-Bow,hammersmith-city,True,0
+Bromley-by-Bow,Bow Road,hammersmith-city,True,2
+Bow Road,Mile End,hammersmith-city,True,2
+Mile End,Stepney Green,hammersmith-city,True,3
+Stepney Green,Whitechapel,hammersmith-city,True,0
+Whitechapel,Aldgate East,hammersmith-city,True,0
+Aldgate East,Liverpool Street,hammersmith-city,True,0
+Liverpool Street,Moorgate,hammersmith-city,True,0
+Moorgate,Barbican,hammersmith-city,True,0
+Barbican,Farringdon,hammersmith-city,True,0
+Farringdon,King's Cross St. Pancras,hammersmith-city,False,0
+King's Cross St. Pancras,Euston Square,hammersmith-city,False,0
+Euston Square,Great Portland Street,hammersmith-city,True,1
+Great Portland Street,Baker Street,hammersmith-city,False,2
+Baker Street,Edgware Road (Circle Line),hammersmith-city,False,2
+Edgware Road (Circle Line),Paddington (H&C Line)-Underground,hammersmith-city,False,3
+Paddington (H&C Line)-Underground,Royal Oak,hammersmith-city,False,1
+Royal Oak,Westbourne Park,hammersmith-city,True,2
+Westbourne Park,Ladbroke Grove,hammersmith-city,False,1
+Ladbroke Grove,Latimer Road,hammersmith-city,False,2
+Latimer Road,Wood Lane,hammersmith-city,False,1
+Wood Lane,Shepherd's Bush Market,hammersmith-city,False,1
+Shepherd's Bush Market,Goldhawk Road,hammersmith-city,False,2
+Goldhawk Road,Hammersmith (H&C Line),hammersmith-city,False,2
+Hammersmith (H&C Line),Goldhawk Road,hammersmith-city,False,2
+Goldhawk Road,Shepherd's Bush Market,hammersmith-city,False,1
+Shepherd's Bush Market,Wood Lane,hammersmith-city,False,2
+Wood Lane,Latimer Road,hammersmith-city,False,1
+Latimer Road,Ladbroke Grove,hammersmith-city,False,1
+Ladbroke Grove,Westbourne Park,hammersmith-city,False,2
+Westbourne Park,Royal Oak,hammersmith-city,True,2
+Royal Oak,Paddington (H&C Line)-Underground,hammersmith-city,False,2
+Paddington (H&C Line)-Underground,Edgware Road (Circle Line),hammersmith-city,False,2
+Edgware Road (Circle Line),Baker Street,hammersmith-city,False,3
+Baker Street,Great Portland Street,hammersmith-city,False,2
+Great Portland Street,Euston Square,hammersmith-city,True,1
+Euston Square,King's Cross St. Pancras,hammersmith-city,False,0
+King's Cross St. Pancras,Farringdon,hammersmith-city,False,0
+Farringdon,Barbican,hammersmith-city,True,0
+Barbican,Moorgate,hammersmith-city,True,0
+Moorgate,Liverpool Street,hammersmith-city,True,0
+Liverpool Street,Aldgate East,hammersmith-city,True,0
+Aldgate East,Whitechapel,hammersmith-city,True,0
+Whitechapel,Stepney Green,hammersmith-city,True,0
+Stepney Green,Mile End,hammersmith-city,True,0
+Mile End,Bow Road,hammersmith-city,True,0
+Bow Road,Bromley-by-Bow,hammersmith-city,True,0
+Bromley-by-Bow,West Ham,hammersmith-city,True,0
+West Ham,Plaistow,hammersmith-city,True,0
+Plaistow,Upton Park,hammersmith-city,True,0
+Upton Park,East Ham,hammersmith-city,True,0
+East Ham,Barking,hammersmith-city,True,0
+Stanmore,Canons Park,jubilee,False,0
+Canons Park,Queensbury,jubilee,True,0
+Queensbury,Kingsbury,jubilee,True,0
+Kingsbury,Wembley Park,jubilee,True,0
+Wembley Park,Neasden,jubilee,True,0
+Neasden,Dollis Hill,jubilee,True,0
+Dollis Hill,Willesden Green,jubilee,True,0
+Willesden Green,Kilburn,jubilee,True,0
+Kilburn,West Hampstead,jubilee,False,0
+West Hampstead,Finchley Road,jubilee,False,0
+Finchley Road,Swiss Cottage,jubilee,True,0
+Swiss Cottage,St. John's Wood,jubilee,True,0
+St. John's Wood,Baker Street,jubilee,False,0
+Baker Street,Bond Street,jubilee,False,0
+Bond Street,Green Park,jubilee,True,0
+Green Park,Westminster,jubilee,True,0
+Westminster,Waterloo,jubilee,False,0
+Waterloo,Southwark,jubilee,True,14
+Southwark,London Bridge,jubilee,True,0
+London Bridge,Bermondsey,jubilee,True,0
+Bermondsey,Canada Water,jubilee,True,0
+Canada Water,Canary Wharf,jubilee,True,0
+Canary Wharf,North Greenwich,jubilee,True,0
+North Greenwich,Canning Town,jubilee,True,0
+Canning Town,West Ham,jubilee,True,0
+West Ham,Stratford,jubilee,True,0
+Stratford,West Ham,jubilee,True,0
+West Ham,Canning Town,jubilee,True,0
+Canning Town,North Greenwich,jubilee,True,0
+North Greenwich,Canary Wharf,jubilee,True,0
+Canary Wharf,Canada Water,jubilee,True,0
+Canada Water,Bermondsey,jubilee,True,0
+Bermondsey,London Bridge,jubilee,True,0
+London Bridge,Southwark,jubilee,True,0
+Southwark,Waterloo,jubilee,False,14
+Waterloo,Westminster,jubilee,True,0
+Westminster,Green Park,jubilee,True,0
+Green Park,Bond Street,jubilee,True,0
+Bond Street,Baker Street,jubilee,False,0
+Baker Street,St. John's Wood,jubilee,False,15
+St. John's Wood,Swiss Cottage,jubilee,True,1
+Swiss Cottage,Finchley Road,jubilee,True,19
+Finchley Road,West Hampstead,jubilee,False,0
+West Hampstead,Kilburn,jubilee,False,0
+Kilburn,Willesden Green,jubilee,True,33
+Willesden Green,Dollis Hill,jubilee,True,32
+Dollis Hill,Neasden,jubilee,True,33
+Neasden,Wembley Park,jubilee,True,21
+Wembley Park,Kingsbury,jubilee,True,3
+Kingsbury,Queensbury,jubilee,True,2
+Queensbury,Canons Park,jubilee,True,2
+Canons Park,Stanmore,jubilee,False,2
+Aldgate,Liverpool Street,metropolitan,False,0
+Liverpool Street,Moorgate,metropolitan,True,0
+Moorgate,Barbican,metropolitan,True,0
+Barbican,Farringdon,metropolitan,True,0
+Farringdon,King's Cross St. Pancras,metropolitan,False,0
+King's Cross St. Pancras,Euston Square,metropolitan,False,0
+Euston Square,Great Portland Street,metropolitan,True,0
+Great Portland Street,Baker Street,metropolitan,False,0
+Baker Street,Finchley Road,metropolitan,False,6
+Finchley Road,Wembley Park,metropolitan,True,0
+Wembley Park,Preston Road,metropolitan,True,0
+Preston Road,Northwick Park,metropolitan,True,0
+Northwick Park,Harrow-on-the-Hill,metropolitan,True,0
+Harrow-on-the-Hill,North Harrow,metropolitan,True,0
+North Harrow,Pinner,metropolitan,True,2
+Pinner,Northwood Hills,metropolitan,True,2
+Northwood Hills,Northwood,metropolitan,True,3
+Northwood,Moor Park,metropolitan,True,2
+Moor Park,Croxley,metropolitan,True,4
+Croxley,Watford,metropolitan,True,3
+Moor Park,Rickmansworth,metropolitan,True,66
+Rickmansworth,Chorleywood,metropolitan,True,0
+Chorleywood,Chalfont & Latimer,metropolitan,True,0
+Chalfont & Latimer,Amersham,metropolitan,True,0
+Chalfont & Latimer,Chesham,metropolitan,True,0
+Harrow-on-the-Hill,West Harrow,metropolitan,True,0
+West Harrow,Rayners Lane,metropolitan,True,2
+Rayners Lane,Eastcote,metropolitan,False,3
+Eastcote,Ruislip Manor,metropolitan,False,2
+Ruislip Manor,Ruislip,metropolitan,True,0
+Ruislip,Ickenham,metropolitan,True,0
+Ickenham,Hillingdon,metropolitan,True,1
+Hillingdon,Uxbridge,metropolitan,True,4
+Amersham,Chalfont & Latimer,metropolitan,True,0
+Chalfont & Latimer,Chorleywood,metropolitan,True,0
+Chorleywood,Rickmansworth,metropolitan,True,0
+Rickmansworth,Moor Park,metropolitan,True,71
+Moor Park,Northwood,metropolitan,True,3
+Northwood,Northwood Hills,metropolitan,True,2
+Northwood Hills,Pinner,metropolitan,True,3
+Pinner,North Harrow,metropolitan,True,2
+North Harrow,Harrow-on-the-Hill,metropolitan,True,0
+Harrow-on-the-Hill,Northwick Park,metropolitan,True,0
+Northwick Park,Preston Road,metropolitan,True,2
+Preston Road,Wembley Park,metropolitan,True,3
+Wembley Park,Finchley Road,metropolitan,True,7
+Finchley Road,Baker Street,metropolitan,False,5
+Baker Street,Great Portland Street,metropolitan,False,2
+Great Portland Street,Euston Square,metropolitan,True,1
+Euston Square,King's Cross St. Pancras,metropolitan,False,0
+King's Cross St. Pancras,Farringdon,metropolitan,False,0
+Farringdon,Barbican,metropolitan,True,0
+Barbican,Moorgate,metropolitan,True,0
+Moorgate,Liverpool Street,metropolitan,True,0
+Liverpool Street,Aldgate,metropolitan,False,0
+Chesham,Chalfont & Latimer,metropolitan,True,0
+Uxbridge,Hillingdon,metropolitan,True,2
+Hillingdon,Ickenham,metropolitan,True,2
+Ickenham,Ruislip,metropolitan,True,0
+Ruislip,Ruislip Manor,metropolitan,True,0
+Ruislip Manor,Eastcote,metropolitan,False,2
+Eastcote,Rayners Lane,metropolitan,False,4
+Rayners Lane,West Harrow,metropolitan,True,2
+West Harrow,Harrow-on-the-Hill,metropolitan,True,0
+Watford,Croxley,metropolitan,True,3
+Croxley,Moor Park,metropolitan,True,4
+Battersea Power Station,Nine Elms,northern,False,2
+Nine Elms,Kennington,northern,False,2
+Kennington,Waterloo,northern,True,20
+Waterloo,Embankment,northern,True,23
+Embankment,Charing Cross,northern,True,0
+Charing Cross,Leicester Square,northern,True,0
+Leicester Square,Tottenham Court Road,northern,True,0
+Tottenham Court Road,Goodge Street,northern,True,0
+Goodge Street,Warren Street,northern,True,1
+Warren Street,Euston,northern,True,0
+Euston,Mornington Crescent,northern,True,0
+Mornington Crescent,Camden Town,northern,True,2
+Camden Town,Chalk Farm,northern,False,1
+Chalk Farm,Belsize Park,northern,False,2
+Belsize Park,Hampstead,northern,True,0
+Hampstead,Golders Green,northern,True,0
+Golders Green,Brent Cross,northern,True,2
+Brent Cross,Hendon Central,northern,True,2
+Hendon Central,Colindale,northern,True,3
+Colindale,Burnt Oak,northern,True,2
+Burnt Oak,Edgware,northern,True,2
+Camden Town,Kentish Town,northern,False,0
+Kentish Town,Tufnell Park,northern,False,0
+Tufnell Park,Archway,northern,False,2
+Archway,Highgate,northern,False,2
+Highgate,East Finchley,northern,True,3
+East Finchley,Finchley Central,northern,True,4
+Finchley Central,West Finchley,northern,True,2
+West Finchley,Woodside Park,northern,True,2
+Woodside Park,Totteridge & Whetstone,northern,True,2
+Totteridge & Whetstone,High Barnet,northern,True,4
+Edgware,Burnt Oak,northern,True,3
+Burnt Oak,Colindale,northern,True,2
+Colindale,Hendon Central,northern,True,3
+Hendon Central,Brent Cross,northern,True,2
+Brent Cross,Golders Green,northern,True,3
+Golders Green,Hampstead,northern,True,0
+Hampstead,Belsize Park,northern,True,0
+Belsize Park,Chalk Farm,northern,False,2
+Chalk Farm,Camden Town,northern,False,1
+Camden Town,Euston,northern,True,0
+Euston,King's Cross St. Pancras,northern,False,0
+King's Cross St. Pancras,Angel,northern,False,0
+Angel,Old Street,northern,False,0
+Old Street,Moorgate,northern,True,0
+Moorgate,Bank,northern,True,0
+Bank,London Bridge,northern,True,0
+London Bridge,Borough,northern,False,0
+Borough,Elephant & Castle,northern,False,0
+Elephant & Castle,Kennington,northern,True,0
+Kennington,Oval,northern,True,2
+Oval,Stockwell,northern,True,29
+Stockwell,Clapham North,northern,True,1
+Clapham North,Clapham Common,northern,True,2
+Clapham Common,Clapham South,northern,True,2
+Clapham South,Balham,northern,False,0
+Balham,Tooting Bec,northern,False,0
+Tooting Bec,Tooting Broadway,northern,True,2
+Tooting Broadway,Colliers Wood,northern,True,2
+Colliers Wood,South Wimbledon,northern,True,2
+South Wimbledon,Morden,northern,True,2
+Camden Town,Mornington Crescent,northern,True,2
+Mornington Crescent,Euston,northern,True,0
+Euston,Warren Street,northern,True,0
+Warren Street,Goodge Street,northern,True,1
+Goodge Street,Tottenham Court Road,northern,True,0
+Tottenham Court Road,Leicester Square,northern,True,0
+Leicester Square,Charing Cross,northern,True,0
+Charing Cross,Embankment,northern,True,0
+Embankment,Waterloo,northern,True,22
+Waterloo,Kennington,northern,True,20
+Kennington,Nine Elms,northern,False,2
+Nine Elms,Battersea Power Station,northern,False,2
+High Barnet,Totteridge & Whetstone,northern,True,3
+Totteridge & Whetstone,Woodside Park,northern,True,3
+Woodside Park,West Finchley,northern,True,1
+West Finchley,Finchley Central,northern,True,3
+Finchley Central,East Finchley,northern,True,3
+East Finchley,Highgate,northern,True,2
+Highgate,Archway,northern,False,3
+Archway,Tufnell Park,northern,False,1
+Tufnell Park,Kentish Town,northern,False,0
+Kentish Town,Camden Town,northern,False,0
+Mill Hill East,Finchley Central,northern,True,2
+Morden,South Wimbledon,northern,True,2
+South Wimbledon,Colliers Wood,northern,True,2
+Colliers Wood,Tooting Broadway,northern,True,2
+Tooting Broadway,Tooting Bec,northern,True,2
+Tooting Bec,Balham,northern,False,0
+Balham,Clapham South,northern,False,0
+Clapham South,Clapham Common,northern,True,2
+Clapham Common,Clapham North,northern,True,2
+Clapham North,Stockwell,northern,True,1
+Stockwell,Oval,northern,True,2
+Oval,Kennington,northern,True,3
+Kennington,Elephant & Castle,northern,True,0
+Elephant & Castle,Borough,northern,False,0
+Borough,London Bridge,northern,False,0
+London Bridge,Bank,northern,True,0
+Bank,Moorgate,northern,True,0
+Moorgate,Old Street,northern,True,0
+Old Street,Angel,northern,False,0
+Angel,King's Cross St. Pancras,northern,False,0
+King's Cross St. Pancras,Euston,northern,False,0
+Euston,Camden Town,northern,True,0
+Finchley Central,Mill Hill East,northern,True,2
+Cockfosters,Oakwood,piccadilly,True,3
+Oakwood,Southgate,piccadilly,True,3
+Southgate,Arnos Grove,piccadilly,True,5
+Arnos Grove,Bounds Green,piccadilly,True,2
+Bounds Green,Wood Green,piccadilly,True,3
+Wood Green,Turnpike Lane,piccadilly,True,1
+Turnpike Lane,Manor House,piccadilly,True,4
+Manor House,Finsbury Park,piccadilly,False,0
+Finsbury Park,Arsenal,piccadilly,False,0
+Arsenal,Holloway Road,piccadilly,True,2
+Holloway Road,Caledonian Road,piccadilly,True,1
+Caledonian Road,King's Cross St. Pancras,piccadilly,False,0
+King's Cross St. Pancras,Russell Square,piccadilly,False,0
+Russell Square,Holborn,piccadilly,True,2
+Holborn,Covent Garden,piccadilly,True,2
+Covent Garden,Leicester Square,piccadilly,True,1
+Leicester Square,Piccadilly Circus,piccadilly,True,2
+Piccadilly Circus,Green Park,piccadilly,True,1
+Green Park,Hyde Park Corner,piccadilly,True,2
+Hyde Park Corner,Knightsbridge,piccadilly,True,2
+Knightsbridge,South Kensington,piccadilly,False,2
+South Kensington,Gloucester Road,piccadilly,False,4
+Gloucester Road,Earl's Court,piccadilly,False,11
+Earl's Court,Barons Court,piccadilly,False,4
+Barons Court,Hammersmith (Dist&Picc Line),piccadilly,False,2
+Hammersmith (Dist&Picc Line),Turnham Green,piccadilly,False,5
+Turnham Green,Acton Town,piccadilly,True,3
+Acton Town,Ealing Common,piccadilly,True,2
+Ealing Common,North Ealing,piccadilly,True,2
+North Ealing,Park Royal,piccadilly,True,2
+Park Royal,Alperton,piccadilly,True,3
+Alperton,Sudbury Town,piccadilly,True,3
+Sudbury Town,Sudbury Hill,piccadilly,True,3
+Sudbury Hill,South Harrow,piccadilly,True,2
+South Harrow,Rayners Lane,piccadilly,True,8
+Rayners Lane,Eastcote,piccadilly,False,3
+Eastcote,Ruislip Manor,piccadilly,False,2
+Ruislip Manor,Ruislip,piccadilly,True,0
+Ruislip,Ickenham,piccadilly,True,0
+Ickenham,Hillingdon,piccadilly,True,1
+Hillingdon,Uxbridge,piccadilly,True,4
+Acton Town,South Ealing,piccadilly,True,3
+South Ealing,Northfields,piccadilly,True,2
+Northfields,Boston Manor,piccadilly,True,2
+Boston Manor,Osterley,piccadilly,True,3
+Osterley,Hounslow East,piccadilly,True,2
+Hounslow East,Hounslow Central,piccadilly,True,2
+Hounslow Central,Hounslow West,piccadilly,True,3
+Hounslow West,Hatton Cross,piccadilly,True,4
+Hatton Cross,Heathrow Terminal 4,piccadilly,False,3
+Hatton Cross,Heathrow Terminals 2 & 3,piccadilly,False,59
+Heathrow Terminals 2 & 3,Heathrow Terminal 5,piccadilly,False,68
+Heathrow Terminal 4,Heathrow Terminals 2 & 3,piccadilly,False,70
+Heathrow Terminals 2 & 3,Hatton Cross,piccadilly,False,58
+Hatton Cross,Hounslow West,piccadilly,True,4
+Hounslow West,Hounslow Central,piccadilly,True,2
+Hounslow Central,Hounslow East,piccadilly,True,2
+Hounslow East,Osterley,piccadilly,True,2
+Osterley,Boston Manor,piccadilly,True,4
+Boston Manor,Northfields,piccadilly,True,3
+Northfields,South Ealing,piccadilly,True,1
+South Ealing,Acton Town,piccadilly,True,5
+Acton Town,Turnham Green,piccadilly,True,4
+Turnham Green,Hammersmith (Dist&Picc Line),piccadilly,False,5
+Hammersmith (Dist&Picc Line),Barons Court,piccadilly,False,2
+Barons Court,Earl's Court,piccadilly,False,5
+Earl's Court,Gloucester Road,piccadilly,False,2
+Gloucester Road,South Kensington,piccadilly,False,2
+South Kensington,Knightsbridge,piccadilly,False,3
+Knightsbridge,Hyde Park Corner,piccadilly,True,1
+Hyde Park Corner,Green Park,piccadilly,True,2
+Green Park,Piccadilly Circus,piccadilly,True,19
+Piccadilly Circus,Leicester Square,piccadilly,True,1
+Leicester Square,Covent Garden,piccadilly,True,1
+Covent Garden,Holborn,piccadilly,True,2
+Holborn,Russell Square,piccadilly,True,2
+Russell Square,King's Cross St. Pancras,piccadilly,False,0
+King's Cross St. Pancras,Caledonian Road,piccadilly,False,0
+Caledonian Road,Holloway Road,piccadilly,True,1
+Holloway Road,Arsenal,piccadilly,True,22
+Arsenal,Finsbury Park,piccadilly,False,0
+Finsbury Park,Manor House,piccadilly,False,0
+Manor House,Turnpike Lane,piccadilly,True,3
+Turnpike Lane,Wood Green,piccadilly,True,2
+Wood Green,Bounds Green,piccadilly,True,2
+Bounds Green,Arnos Grove,piccadilly,True,4
+Arnos Grove,Southgate,piccadilly,True,3
+Southgate,Oakwood,piccadilly,True,3
+Oakwood,Cockfosters,piccadilly,True,3
+Heathrow Terminal 5,Heathrow Terminals 2 & 3,piccadilly,False,65
+Uxbridge,Hillingdon,piccadilly,True,2
+Hillingdon,Ickenham,piccadilly,True,2
+Ickenham,Ruislip,piccadilly,True,0
+Ruislip,Ruislip Manor,piccadilly,True,0
+Ruislip Manor,Eastcote,piccadilly,False,2
+Eastcote,Rayners Lane,piccadilly,False,4
+Rayners Lane,South Harrow,piccadilly,True,3
+South Harrow,Sudbury Hill,piccadilly,True,2
+Sudbury Hill,Sudbury Town,piccadilly,True,3
+Sudbury Town,Alperton,piccadilly,True,2
+Alperton,Park Royal,piccadilly,True,4
+Park Royal,North Ealing,piccadilly,True,2
+North Ealing,Ealing Common,piccadilly,True,2
+Ealing Common,Acton Town,piccadilly,True,3
+Brixton,Stockwell,victoria,False,0
+Stockwell,Vauxhall,victoria,True,0
+Vauxhall,Pimlico,victoria,True,0
+Pimlico,Victoria,victoria,True,0
+Victoria,Green Park,victoria,True,0
+Green Park,Oxford Circus,victoria,True,1
+Oxford Circus,Warren Street,victoria,True,1
+Warren Street,Euston,victoria,True,0
+Euston,King's Cross St. Pancras,victoria,False,0
+King's Cross St. Pancras,Highbury & Islington,victoria,False,0
+Highbury & Islington,Finsbury Park,victoria,False,0
+Finsbury Park,Seven Sisters,victoria,False,0
+Seven Sisters,Tottenham Hale,victoria,True,0
+Tottenham Hale,Blackhorse Road,victoria,False,0
+Blackhorse Road,Walthamstow Central,victoria,False,0
+Walthamstow Central,Blackhorse Road,victoria,False,0
+Blackhorse Road,Tottenham Hale,victoria,False,0
+Tottenham Hale,Seven Sisters,victoria,True,0
+Seven Sisters,Finsbury Park,victoria,False,0
+Finsbury Park,Highbury & Islington,victoria,False,0
+Highbury & Islington,King's Cross St. Pancras,victoria,False,0
+King's Cross St. Pancras,Euston,victoria,False,0
+Euston,Warren Street,victoria,True,0
+Warren Street,Oxford Circus,victoria,True,1
+Oxford Circus,Green Park,victoria,True,14
+Green Park,Victoria,victoria,True,0
+Victoria,Pimlico,victoria,True,0
+Pimlico,Vauxhall,victoria,True,0
+Vauxhall,Stockwell,victoria,True,0
+Stockwell,Brixton,victoria,False,0
+Waterloo,Bank,Waterloo & City,False,4
+Bank,Waterloo,Waterloo & City,False,4
+Whitechapel,Liverpool Street,hammersmith-city,True,3
+Liverpool Street,Moorgate,hammersmith-city,True,2
+Moorgate,Barbican,hammersmith-city,True,2
+Barbican,Farringdon,hammersmith-city,True,2
+Farringdon,King's Cross St. Pancras,hammersmith-city,True,3
+King's Cross St. Pancras,Euston Square,hammersmith-city,True,2
+Euston Square,Great Portland Street,hammersmith-city,True,2
+Great Portland Street,Baker Street,hammersmith-city,True,2
+Baker Street,Finchley Road,metropolitan,True,5
+Finchley Road,Wembley Park,metropolitan,True,7
+Wembley Park,Finchley Road,metropolitan,True,7
+Finchley Road,Baker Street,metropolitan,True,5
+Baker Street,Great Portland Street,hammersmith-city,True,2
+Great Portland Street,Euston Square,hammersmith-city,True,2
+Euston Square,King's Cross St. Pancras,hammersmith-city,True,2
+King's Cross St. Pancras,Farringdon,hammersmith-city,True,3
+Farringdon,Barbican,hammersmith-city,True,2
+Barbican,Moorgate,hammersmith-city,True,2
+Moorgate,Liverpool Street,hammersmith-city,True,2
+Liverpool Street,Whitechapel,hammersmith-city,True,3
